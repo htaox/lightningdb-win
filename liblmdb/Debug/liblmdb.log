@@ -1,0 +1,118 @@
+﻿Build started 6/12/2015 10:52:00 AM.
+     1>Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb\liblmdb.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ibuild_compability_includes\stubs /Ibuild_compability_includes\real /ZI /nologo /W3 /WX- /Od /Oy- /D MDB_DEBUG /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt build_compability_includes\real\win32compability.c midl.c mdb.c
+         mdb.c
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(1146): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(1173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(1701): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(1849): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2201): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2209): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2222): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2243): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2305): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2359): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2642): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2648): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2739): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2855): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2867): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2954): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2961): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2967): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(2973): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3008): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3067): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3130): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3251): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3362): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3363): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3364): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3365): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3366): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3367): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3368): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3369): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3615): warning C4244: 'function' : conversion from 'mdb_hash_t' to 'unsigned long', possible loss of data
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3807): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3813): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(3962): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4337): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4365): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4385): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4388): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4443): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4452): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4513): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4546): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4548): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4570): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4590): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4595): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4646): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4688): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4702): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4725): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4812): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4831): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4868): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4873): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4886): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4932): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4935): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4941): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(4946): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5002): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5005): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5011): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5018): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5166): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5224): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5475): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5559): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5592): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5615): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5826): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(5860): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6064): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6166): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6197): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6201): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6211): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6213): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6214): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6284): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6446): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6619): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6633): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6748): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6795): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6823): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6861): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(6915): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7008): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7018): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7026): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7030): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7060): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7094): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7117): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7128): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7140): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7227): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7305): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7310): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7321): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7339): error C2065: '__func__' : undeclared identifier
+     1>c:\cygwin64\home\htao\lightningdb-win\liblmdb\mdb.c(7482): error C2065: '__func__' : undeclared identifier
+         midl.c
+         win32compability.c
+         Generating Code...
+     1>Done Building Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb\liblmdb.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.02

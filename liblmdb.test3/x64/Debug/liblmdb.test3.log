@@ -1,0 +1,22 @@
+﻿Build started 6/12/2015 10:49:41 AM.
+     1>Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb.test3\liblmdb.test3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\liblmdb /I..\liblmdb\build_compability_includes\real /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt mtest3.c
+         mtest3.c
+     1>mtest3.c(41): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>mtest3.c(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>mtest3.c(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>mtest3.c(92): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>mtest3.c(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\htao\lightningdb-win\x64\Debug\liblmdb.test3.exe" /INCREMENTAL /NOLOGO "C:\cygwin64\home\htao\lightningdb-win\Debug\lmdb.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cygwin64\home\htao\lightningdb-win\x64\Debug\liblmdb.test3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin64\home\htao\lightningdb-win\x64\Debug\liblmdb.test3.lib" /MACHINE:X64 x64\Debug\mtest3.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\cygwin64\home\htao\lightningdb-win\Debug\lmdb.lib'
+     1>Done Building Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb.test3\liblmdb.test3.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64

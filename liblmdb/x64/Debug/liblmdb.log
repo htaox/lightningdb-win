@@ -1,0 +1,171 @@
+﻿Build started 6/12/2015 10:59:04 AM.
+     1>Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb\liblmdb.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Ibuild_compability_includes\stubs /Ibuild_compability_includes\real /Zi /nologo /W3 /WX- /Od /D MDB_DEBUG /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt build_compability_includes\real\win32compability.c midl.c mdb.c
+         mdb.c
+     1>mdb.c(1146): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>mdb.c(1173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>mdb.c(1351): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1447): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1511): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1527): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1606): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1672): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(1707): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(1859): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(1866): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(2221): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2229): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2242): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2263): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2306): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(2307): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(2327): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2382): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2611): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(2668): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2671): warning C4267: '=' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>mdb.c(2672): warning C4267: 'function' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>mdb.c(2674): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2767): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2806): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(2836): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(2839): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(2855): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(2885): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2897): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2984): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2991): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(2997): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3003): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3038): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3097): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3132): warning C4267: '=' : conversion from 'size_t' to 'off_t', possible loss of data
+     1>mdb.c(3161): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3282): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3308): warning C4267: '=' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>mdb.c(3395): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3396): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3397): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3398): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3399): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3400): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3401): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3402): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3652): warning C4244: 'function' : conversion from 'mdb_hash_t' to 'unsigned long', possible loss of data
+     1>mdb.c(3846): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3852): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(3902): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(4006): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4147): warning C4267: '=' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>mdb.c(4177): warning C4267: '=' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>mdb.c(4211): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(4322): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4325): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4330): warning C4244: 'return' : conversion from 'ssize_t' to 'int', possible loss of data
+     1>mdb.c(4356): warning C4244: 'return' : conversion from 'ssize_t' to 'int', possible loss of data
+     1>mdb.c(4386): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4414): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4435): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4438): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4493): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4502): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4564): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4597): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4599): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4622): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4642): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4647): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4698): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4741): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4755): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4778): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4807): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4816): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4827): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4828): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(4867): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4886): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4923): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4928): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4942): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4989): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4992): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(4998): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5004): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5061): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5064): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5070): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5078): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5229): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5291): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5550): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5610): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(5634): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5671): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5695): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(5768): warning C4267: '=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(5771): warning C4267: '=' : conversion from 'size_t' to 'uint16_t', possible loss of data
+     1>mdb.c(5772): warning C4267: '+=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(5809): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(5874): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(5911): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>mdb.c(5919): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(5947): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6154): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6256): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6270): warning C4267: '-=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(6284): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(6288): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6292): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6303): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6305): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6306): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6315): warning C4267: '=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(6323): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(6326): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(6328): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(6377): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6388): warning C4267: '+=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(6541): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6717): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6721): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(6731): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6753): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>mdb.c(6850): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6860): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>mdb.c(6898): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6927): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(6965): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7022): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7115): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7125): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7133): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7137): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7168): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7203): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7226): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7238): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7250): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7337): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7416): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7421): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7432): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7451): error C2065: '__func__' : undeclared identifier
+     1>mdb.c(7501): warning C4267: '-=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(7510): warning C4267: '-=' : conversion from 'size_t' to 'indx_t', possible loss of data
+     1>mdb.c(7534): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>mdb.c(7599): error C2065: '__func__' : undeclared identifier
+         midl.c
+     1>midl.c(44): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>midl.c(148): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>midl.c(178): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         win32compability.c
+         Generating Code...
+     1>Done Building Project "C:\cygwin64\home\htao\lightningdb-win\liblmdb\liblmdb.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
