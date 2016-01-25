@@ -307,6 +307,8 @@ static txnid_t mdb_debug_start;
 /**	Print a debug message with printf formatting.
 *	Requires double parenthesis around 2 or more args.
 */
+#define __func__ __FUNCTION__
+
 # define DPRINTF(args) ((void) ((mdb_debug) && DPRINTF0 args))
 # define DPRINTF0(fmt, ...) \
 	fprintf(stderr, "%s:%d " fmt "\n", __func__, __LINE__, __VA_ARGS__)
